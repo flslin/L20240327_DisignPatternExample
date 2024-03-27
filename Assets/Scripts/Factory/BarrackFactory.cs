@@ -23,7 +23,7 @@ public class BarrackFactory : MonoBehaviour
                 unit = Instantiate(marine, new Vector3(x,1.0f, z), Quaternion.identity);
                 break;
             case UnitType1.FireBat:
-                unit = Instantiate(marine, new Vector3(x, 1.0f, z), Quaternion.identity);
+                unit = Instantiate(firebat, new Vector3(x, 1.0f, z), Quaternion.identity);
                 break;
         }
         return unit;

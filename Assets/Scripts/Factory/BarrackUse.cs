@@ -21,8 +21,8 @@ public class BarrackUse : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
 
-        unit1.GetComponent<Unit>.move();
-        unit2.GetComponent<Unit>.move();
+        unit1.GetComponent<Unit1>().Attack();
+        unit2.GetComponent<Unit1>().Attack();
     }
 }
 
